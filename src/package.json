@@ -1,0 +1,21 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-lambda-powertools/commons": "^1.8.0",
+    "@aws-sdk/client-dynamodb": "^3.309.0",
+    "@aws-sdk/util-dynamodb": "^3.309.0",
+    "ulid": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.114",
+    "@types/node": "^18.15.11"
+  }
+}
